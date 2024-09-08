@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# PROMA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🤖 동국동락 캐릭톡: 랭체인 기반 맞춤형 추천 챗봇
 
-## Available Scripts
+동국대학교 학생 및 구성원들의 학교 생활을 더욱 편리하게 만들어줄 똑똑한 챗봇입니다. 학교 정보, 주변 상권, 맞춤형 추천까지, 궁금한 건 무엇이든 물어보세요!
 
-In the project directory, you can run:
+## 🎯 주요 목표
 
-### `npm start`
+* 동국대학교 구성원들에게 학교 생활 및 주변 정보에 대한 맞춤형 추천 제공
+* 랭체인과 프롬프트 엔지니어링 기술을 활용하여 자연스러운 대화 경험 제공
+* 동국대학교 데이터셋 기반으로 정확하고 신뢰성 있는 정보 제공
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ 핵심 기능
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **개인 맞춤형 추천:** 사용자의 관심사, 시간, 위치 등을 고려한 학교 행사, 식당, 스터디 공간 추천
+* **학교 생활 정보 제공:** 학사 일정, 장학금 정보, 시설 이용 안내 등 학교 생활 필수 정보 제공
+* **주변 정보 안내:** 학교 주변 맛집, 카페, 문화 시설 정보 제공
+* **자연스러운 대화:** 랭체인 기반 자연어 처리 기술로 사용자와 자연스러운 대화 지원
 
-### `npm test`
+## 🚀 사용 예시
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **학생:** "오늘 점심 뭐 먹지?" 챗봇: "현재 학생회관 근처에 계시네요! 오늘 학생식당 메뉴는 돈까스와 비빔밥이에요. 근처에 맛있는 쌀국수 집도 있어요."
+* **교직원:** "이번 주 학사 일정 알려줘." 챗봇: "이번 주 주요 학사 일정은 다음과 같습니다: 1. 월요일: 개강총회, 2. 수요일: 중간고사 기간 시작..."
 
-### `npm run build`
+## 🛠️ 기술 스택
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **랭체인 (LangChain):** 자연어 처리 및 대화 생성 프레임워크
+* **프롬프트 엔지니어링 (Prompt Engineering):** 챗봇 성능 최적화를 위한 질문 및 답변 설계 기법
+* **동국대학교 데이터셋:** 학교 관련 정보 (학사 일정, 시설 정보, 주변 상권 등) 포함
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🗺️ 프로젝트 로드맵
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **데이터셋 확장:** 더욱 다양하고 정확한 정보 제공을 위한 데이터셋 지속적 확장
+* **추천 알고리즘 고도화:** 사용자 만족도 향상을 위한 개인 맞춤형 추천 알고리즘 개선
+* **다양한 플랫폼 연동:** 카카오톡, 웹사이트 등 다양한 플랫폼에서 챗봇 서비스 제공
 
-### `npm run eject`
+## 🏆 Awards
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* 동국대학교 2024 AI융합학부 camputhon [대상]
